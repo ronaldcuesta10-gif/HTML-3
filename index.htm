@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lenguajes de Programación</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="tarjeta-principal">
+    <h1 class="titulo-principal">Lenguajes de Programación Web</h1>
+    <p class="parrafo-introduccion">
+      El desarrollo web moderno se basa en tres tecnologías fundamentales: HTML para la estructura,
+      CSS para el diseño visual y JavaScript para la interacción dinámica con el usuario.
+    </p>
+
+    <h2 class="subtitulo">Recursos Multimedia</h2>
+    <div class="contenedor-multimedia">
+      <img src="imagenes/lenguajes.png" alt="Logos representativos de HTML, CSS y JavaScript" class="media-imagen">
+    </div>
+
+    <h3 class="subtitulo-medio">Video Introductorio</h3>
+    <video src="videos/introduccion.mp4" controls class="media-video">
+      Tu navegador no soporta el elemento de video.
+    </video>
+
+    <h2 class="subtitulo">Tecnologías Principales</h2>
+    <ul class="lista-lenguajes">
+      <li class="item-chip">HTML5 - Estructura semántica</li>
+      <li class="item-chip">CSS3 - Estilos y diseño adaptativo</li>
+      <li class="item-chip">JavaScript - Comportamiento en cliente</li>
+      <li class="item-chip">Python / Node.js - Backend</li>
+    </ul>
+
+    <h2 class="subtitulo">Pasos para Aprender Desarrollo Web</h2>
+    <ol class="lista-pasos">
+      <li>Dominar la sintaxis básica y etiquetas de HTML5</li>
+      <li>Comprender la cascada, selectores y modelo de caja en CSS3</li>
+      <li>Aprender JavaScript interactivo y manipulación del DOM</li>
+      <li>Construir proyectos completos y desplegarlos en la nube</li>
+    </ol>
+
+    <h2 class="subtitulo">Comparativa de Tecnologías Web</h2>
+    <table class="tabla-comparativa">
+      <thead>
+        <tr>
+          <th>Tecnología</th>
+          <th>Tipo</th>
+          <th>Propósito Central</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>HTML5</td>
+          <td>Marcado Semántico</td>
+          <td>Estructurar el árbol DOM y contenido</td>
+        </tr>
+        <tr>
+          <td>CSS3</td>
+          <td>Hojas de Estilo</td>
+          <td>Presentación, layout y diseño adaptativo</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Lenguaje de Programación</td>
+          <td>Lógica dinámica, eventos y conexión API</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 class="subtitulo">Formulario de Opinión y Registro al Taller</h2>
+    <form action="#" method="POST" class="formulario-opinion">
+      <div class="grupo-campo">
+        <label for="nombre" class="etiqueta-campo">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre" class="campo-texto" placeholder="Ej. Ana Pérez">
+      </div>
+      <div class="grupo-campo">
+        <label for="lenguaje" class="etiqueta-campo">¿Qué lenguaje deseas aprender primero?</label>
+        <select id="lenguaje" name="lenguaje" class="campo-select">
+          <option value="html">HTML5 Semántico</option>
+          <option value="css">CSS3 Moderno</option>
+          <option value="js">JavaScript ES6+</option>
+        </select>
+      </div>
+      <div class="grupo-campo">
+        <label for="comentarios" class="etiqueta-campo">Motivo de inscripción o comentarios:</label>
+        <textarea id="comentarios" name="comentarios" rows="3" class="campo-area" placeholder="Escribe aquí..."></textarea>
+      </div>
+      <input type="submit" value="Enviar Formulario" class="boton-enviar">
+    </form>
+
+    <p class="enlace-contenedor">
+      <a href="https://developer.mozilla.org/es/docs/Learn_web_development" target="_blank" rel="noopener noreferrer" class="enlace-mdn">
+        Consultar documentación oficial en MDN Web Docs →
+      </a>
+    </p>
+  </main>
+</body>
+</html>
